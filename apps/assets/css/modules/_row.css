@@ -112,7 +112,7 @@
 	}
 
 	&--equal-height-at-large{
-		@mixin atL arge{
+		@mixin atLarge{
 			 display: flex; /*for same box-size*/
 		}
 
