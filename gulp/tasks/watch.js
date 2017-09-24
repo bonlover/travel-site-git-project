@@ -21,7 +21,7 @@ gulp.task('watch',function(){
 	});
 
 	watch('./apps/assets/js/**/*.js', function(){
-		gulp.start('scripts');
+		gulp.start('scriptsRefresh');
 	});
 
 
