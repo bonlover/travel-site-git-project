@@ -10,7 +10,7 @@
 		}
 
 		.no-svg .icon{
-			background-image: url('/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+			background-image: url('/assets/images/sprites/{{#convertSvgWithPng}}{{{sprite}}}{{/convertSvgWithPng}}');
 		}
 	{{/first}}
 
@@ -20,4 +20,4 @@
 		height:{{height.outer}}px;
 		background-position: {{position.relative.xy}}; 
 	}
-{{/ shapes }}
+{{/shapes}}

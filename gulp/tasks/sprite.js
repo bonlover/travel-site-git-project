@@ -13,7 +13,7 @@ var config = {
 	mode:{
 		css:{
 			variables: {
-				replaceSvgWithPng: function(){
+				convertSvgWithPng: function(){
 					return function(sprite, render){
 						return render(sprite).split('.svg').join('.png');
 					}
