@@ -1,7 +1,10 @@
 const path = require('path');
 module.exports = {
 	context: __dirname,
-	entry: "./apps/assets/js/Script.js",
+	entry: {
+		Script: "./apps/assets/js/Script.js",
+		Vendor: "./apps/assets/js/Vendor.js",
+	},
 	output: {
 		path: path.resolve(__dirname, "./apps/temp/js"),
 		filename: "Script.js"
